@@ -29,7 +29,7 @@ echo ""
 
 # Start all Docker containers
 echo "Starting all Docker containers..."
-docker-compose up -d
+docker-compose start
 echo ""
 
 # Copy backup to backup location
